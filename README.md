@@ -1,5 +1,11 @@
 # Just-fun
 Something interesting and kidding 
+a = 40
+b = 5
+num = print(a % b)
+
+ 
+
 
 def is_divisible_by_7(49):
   """Checks if a number is divisible by 7.
