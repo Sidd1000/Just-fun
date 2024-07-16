@@ -1,3 +1,33 @@
+
+import tkinter as tk
+
+# Create the main application window
+root = tk.Tk()
+root.title("Simple Frame Example")
+
+# Create a frame widget
+frame = tk.Frame(root, padx=20, pady=20)
+frame.pack(padx=50, pady=50)
+
+# Add some widgets (e.g., labels, buttons) inside the frame
+label = tk.Label(frame, text="Hello, this is a frame!")
+label.pack()
+
+button = tk.Button(frame, text="Click Me!", command=lambda: print("Button clicked!"))
+button.pack()
+
+# Start the tkinter main loop
+root.mainloop()
+
+
+
+
+
+
+
+
+
+
 # Just-fun
 Something interesting and kidding 
 a = 40
